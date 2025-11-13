@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PulseFit Studio — Free Trial Registration</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">PulseFit Studio</a>
+  </div>
+</nav>
+
+<main class="container py-4">
+  <h1>Register for a Free Trial</h1>
+  <p class="text-muted">Fill in the form. We will contact you to confirm the class.</p>
+
+  <form id="registrationForm" novalidate>
+    <div class="mb-3">
+      <label for="fullname" class="form-label">Full name</label>
+      <input type="text" id="fullname" class="form-control" required aria-required="true" placeholder="e.g., Ahmad F." />
+      <div class="invalid-feedback">Please enter your full name (min 3 characters).</div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" type="email" class="form-control" required aria-required="true" placeholder="name@example.com" />
+        <div class="invalid-feedback">Enter a valid email.</div>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" type="tel" class="form-control" required aria-required="true" placeholder="+60 12-345 6789" />
+        <div class="invalid-feedback">Enter a valid phone number.</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="program" class="form-label">Select program</label>
+      <select id="program" class="form-select" required>
+        <option value="">Choose...</option>
+        <option value="yoga">Yoga</option>
+        <option value="zumba">Zumba</option>
+        <option value="hiit">HIIT</option>
+        <option value="personal">Personal Training</option>
+      </select>
+      <div class="invalid-feedback">Choose a program.</div>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input id="terms" class="form-check-input" type="checkbox" />
+      <label class="form-check-label" for="terms">I agree to be contacted about my trial and accept studio terms.</label>
+      <div class="invalid-feedback">You must accept terms.</div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+
+  <!-- Success modal -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successLabel">Registration successful</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+        </div>
+        <div class="modal-body">
+          Thank you! We received your registration. We'll contact you within 48 hours to confirm your trial session.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href="schedule.html">See schedule</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="bg-white mt-4">
+  <div class="container">
+    <small class="text-muted">We respect your privacy — no spam.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
