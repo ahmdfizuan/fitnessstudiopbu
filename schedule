@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PulseFit Studio — Schedule</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">PulseFit Studio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+      aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-4">
+  <h1>Weekly Timetable</h1>
+  <p class="text-muted">All classes subject to change. Check notices or contact us.</p>
+
+  <!-- Responsive table -->
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered" aria-describedby="scheduleDesc">
+      <caption id="scheduleDesc">Weekly class schedule showing day, time and class type.</caption>
+      <thead class="table-light">
+        <tr>
+          <th>Day</th>
+          <th>08:00 - 09:00</th>
+          <th>12:00 - 13:00</th>
+          <th>17:30 - 18:30</th>
+          <th>19:00 - 20:00</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Yoga</td>
+          <td>-</td>
+          <td>HIIT</td>
+          <td>Personal Training</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Spin</td>
+          <td>-</td>
+          <td>Yoga</td>
+          <td>HIIT</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Yoga</td>
+          <td>-</td>
+          <td>Zumba</td>
+          <td>Personal Training</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>HIIT</td>
+          <td>-</td>
+          <td>Yoga</td>
+          <td>Zumba</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Yoga</td>
+          <td>-</td>
+          <td>HIIT</td>
+          <td>Open Gym</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>Zumba</td>
+          <td>Yoga (noon)</td>
+          <td>-</td>
+          <td>Community Class</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Rest / Workshops</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer class="bg-white mt-4">
+  <div class="container">
+    <small class="text-muted">Always contact us before attending to confirm schedule.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
