@@ -1,0 +1,48 @@
+/* styles.css - minimal custom styling, keep accessible contrast */
+:root{
+  --accent:#0d6efd;
+  --muted:#6c757d;
+  --bg:#f8fbff;
+  --card-bg:#ffffff;
+}
+
+/* Body */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #212529;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(180deg, rgba(13,110,253,0.06), transparent);
+  padding: 3.5rem 0;
+  border-radius: 8px;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+}
+
+/* Trainer avatar */
+.trainer-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Footer */
+footer {
+  padding: 1.5rem 0;
+  font-size: .95rem;
+  color: var(--muted);
+}
+
+/* Responsive tweaks */
+@media (max-width: 575.98px) {
+  .trainer-img { height: 160px; }
+}
