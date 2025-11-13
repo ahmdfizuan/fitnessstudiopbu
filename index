@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PulseFit Studio — Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">PulseFit Studio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+      aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-4">
+  <section class="hero p-4 mb-4">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="display-6">Move better. Feel better.</h1>
+        <p class="lead">PulseFit Studio offers yoga, zumba, HIIT and personalized training. Beginner-friendly, small classes and certified trainers.</p>
+        <a class="btn btn-primary btn-lg" href="register.html">Book a Free Trial</a>
+      </div>
+      <div class="col-md-6 d-none d-md-block">
+        <img src="https://images.unsplash.com/photo-1571019614139-8f9b6f3b2d4a?q=80&w=1200&auto=format&fit=crop"
+             alt="fitness class" class="img-fluid rounded">
+        <p class="small text-muted mt-2">Image: Unsplash — free to use. See credits in footer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-4">
+    <h2>Our Programs</h2>
+    <div class="row g-3">
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Yoga</h5>
+            <p class="card-text">Slow flow, flexibility and breathing classes for all levels.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Zumba</h5>
+            <p class="card-text">Dance-based cardio — fun and energetic.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">HIIT</h5>
+            <p class="card-text">High intensity interval training to build strength & stamina.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Personal Training</h5>
+            <p class="card-text">1-to-1 coaching and tailored programs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why choose us</h2>
+    <ul>
+      <li>Certified trainers.</li>
+      <li>Small classes for personalised attention.</li>
+      <li>Affordable trial sessions.</li>
+      <li>Accessible studio with adaptive programs.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="bg-white mt-4">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div>
+      <small>© PulseFit Studio — Images from Unsplash and Bootstrap Icons used under free license.</small>
+    </div>
+    <div>
+      <small>Accessible colors, readable fonts. Contact: <a href="contact.html">Contact page</a></small>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
